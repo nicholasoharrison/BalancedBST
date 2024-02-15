@@ -1,0 +1,27 @@
+BST elements: 1000000000 , Tree Height: 1
+Printing BST using 2D representation:
+
+1000000000
+BST elements: 67 1000000000 , Tree Height: 2
+Printing BST using 2D representation:
+
+1000000000
+
+     67
+BST elements: 67 777777777 1000000000 , Tree Height: 3
+Printing BST using 2D representation:
+
+1000000000
+
+          777777777
+
+     67
+4 operations completed
+
+              BST
+Creation      4
+Search        3
+Insert        4
+Delete        0
+         -------------
+Total         11

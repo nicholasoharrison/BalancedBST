@@ -1,0 +1,75 @@
+BST elements: -15 , Tree Height: 1
+Printing BST using 2D representation:
+
+-15
+BST elements: -15 -2 , Tree Height: 2
+Printing BST using 2D representation:
+
+     -2
+
+-15
+BST elements: -15 -10 -2 , Tree Height: 3
+Printing BST using 2D representation:
+
+     -2
+
+          -10
+
+-15
+BST elements: -15 -10 -5 -2 , Tree Height: 4
+Printing BST using 2D representation:
+
+     -2
+
+               -5
+
+          -10
+
+-15
+BST elements: -15 -10 -5 -3 -2 , Tree Height: 5
+Printing BST using 2D representation:
+
+     -2
+
+                    -3
+
+               -5
+
+          -10
+
+-15
+BST elements: -15 -10 -5 -3 -2 5 , Tree Height: 5
+Printing BST using 2D representation:
+
+          5
+
+     -2
+
+                    -3
+
+               -5
+
+          -10
+
+-15
+4 operations completed
+BST elements: -15 -10 -5 -2 5 , Tree Height: 4
+Printing BST using 2D representation:
+
+          5
+
+     -2
+
+               -5
+
+          -10
+
+-15
+
+              BST
+Creation      16
+Search        6
+Insert        4
+Delete        12
+         -------------
+Total         38

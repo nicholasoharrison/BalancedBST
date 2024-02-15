@@ -1,0 +1,108 @@
+BST elements: 1 , Tree Height: 1
+Printing BST using 2D representation:
+
+1
+BST elements: 1 2 , Tree Height: 2
+Printing BST using 2D representation:
+
+     2
+
+1
+BST elements: 1 2 4 , Tree Height: 3
+Printing BST using 2D representation:
+
+          4
+
+     2
+
+1
+BST elements: 1 2 4 8 , Tree Height: 4
+Printing BST using 2D representation:
+
+               8
+
+          4
+
+     2
+
+1
+BST elements: 1 2 4 8 16 , Tree Height: 5
+Printing BST using 2D representation:
+
+                    16
+
+               8
+
+          4
+
+     2
+
+1
+BST elements: 1 2 4 8 16 16 , Tree Height: 5
+Printing BST using 2D representation:
+
+                    16-2
+
+               8
+
+          4
+
+     2
+
+1
+BST elements: 1 2 4 8 8 16 16 , Tree Height: 5
+Printing BST using 2D representation:
+
+                    16-2
+
+               8-2
+
+          4
+
+     2
+
+1
+BST elements: 1 2 4 4 8 8 16 16 , Tree Height: 5
+Printing BST using 2D representation:
+
+                    16-2
+
+               8-2
+
+          4-2
+
+     2
+
+1
+BST elements: 1 2 2 4 4 8 8 16 16 , Tree Height: 5
+Printing BST using 2D representation:
+
+                    16-2
+
+               8-2
+
+          4-2
+
+     2-2
+
+1
+BST elements: 1 1 2 2 4 4 8 8 16 16 , Tree Height: 5
+Printing BST using 2D representation:
+
+                    16-2
+
+               8-2
+
+          4-2
+
+     2-2
+
+1-2
+
+              BST
+Creation      31
+Search        20
+Insert        0
+Delete        0
+         -------------
+Total         51

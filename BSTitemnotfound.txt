@@ -1,0 +1,40 @@
+BST elements: 1 , Tree Height: 1
+Printing BST using 2D representation:
+
+1
+BST elements: 1 3 , Tree Height: 2
+Printing BST using 2D representation:
+
+     3
+
+1
+BST elements: 1 2 3 , Tree Height: 3
+Printing BST using 2D representation:
+
+     3
+
+          2
+
+1
+BST elements: 1 2 3 6 , Tree Height: 3
+Printing BST using 2D representation:
+
+          6
+
+     3
+
+          2
+
+1
+Value 4 not found in the tree - skipping deletion.
+Value 5 not found in the tree.
+Value 7 not found in the tree - skipping deletion.
+Value 8 not found in the tree.
+
+              BST
+Creation      10
+Search        8
+Insert        0
+Delete        8
+         -------------
+Total         26

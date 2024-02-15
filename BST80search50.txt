@@ -1,0 +1,186 @@
+BST elements: 51 , Tree Height: 1
+Printing BST using 2D representation:
+
+51
+BST elements: 43 51 , Tree Height: 2
+Printing BST using 2D representation:
+
+51
+
+     43
+BST elements: 43 51 84 , Tree Height: 2
+Printing BST using 2D representation:
+
+     84
+
+51
+
+     43
+BST elements: 43 51 64 84 , Tree Height: 3
+Printing BST using 2D representation:
+
+     84
+
+          64
+
+51
+
+     43
+BST elements: 43 51 64 81 84 , Tree Height: 4
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+          64
+
+51
+
+     43
+BST elements: 34 43 51 64 81 84 , Tree Height: 4
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+          64
+
+51
+
+     43
+
+          34
+BST elements: 15 34 43 51 64 81 84 , Tree Height: 4
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+          64
+
+51
+
+     43
+
+          34
+
+               15
+BST elements: 15 34 43 51 64 72 81 84 , Tree Height: 5
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+                    72
+
+          64
+
+51
+
+     43
+
+          34
+
+               15
+BST elements: 9 15 34 43 51 64 72 81 84 , Tree Height: 5
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+                    72
+
+          64
+
+51
+
+     43
+
+          34
+
+               15
+
+                    9
+BST elements: 9 10 15 34 43 51 64 72 81 84 , Tree Height: 6
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+                    72
+
+          64
+
+51
+
+     43
+
+          34
+
+               15
+
+                         10
+
+                    9
+BST elements: 9 10 15 15 34 43 51 64 72 81 84 , Tree Height: 6
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+                    72
+
+          64
+
+51
+
+     43
+
+          34
+
+               15-2
+
+                         10
+
+                    9
+5 operations completed
+BST elements: 9 10 15 15 20 34 43 51 64 72 81 84 , Tree Height: 6
+Printing BST using 2D representation:
+
+     84
+
+               81
+
+                    72
+
+          64
+
+51
+
+     43
+
+          34
+
+                    20
+
+               15-2
+
+                         10
+
+                    9
+6 operations completed
+
+              BST
+Creation      36
+Search        17
+Insert        11
+Delete        0
+         -------------
+Total         64
