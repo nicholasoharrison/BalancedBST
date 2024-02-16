@@ -148,6 +148,8 @@ Node* BalancedBST::insertRecursive(Node* current, int value) {
         current->next = newNode;
     }
 
+    balanceByPath(current);
+
     return current;
 }
 
@@ -305,6 +307,32 @@ void BalancedBST::balanceTree(Node*& current) {
     }
 }
 
+
+
+void BalancedBST::balanceByPath(Node*& current)
+{
+    int balanceFactor = getBalanceFactor(current);
+    
+    // Left-Left Case
+    if (balanceFactor > 1 && getBalanceFactor(current->left) >= 0)
+        current = rotateRight(current);
+
+    // Left-Right Case
+    if (balanceFactor > 1 && getBalanceFactor(current->left) < 0) {
+        current->left = rotateLeft(current->left);
+        current = rotateRight(current);
+    }
+
+    // Right-Right Case
+    if (balanceFactor < -1 && getBalanceFactor(current->right) <= 0)
+        current = rotateLeft(current);
+
+    // Right-Left Case
+    if (balanceFactor < -1 && getBalanceFactor(current->right) > 0) {
+        current->right = rotateRight(current->right);
+        current = rotateLeft(current);
+    }
+}
 
 
 // Gets value of the balance factor for each node

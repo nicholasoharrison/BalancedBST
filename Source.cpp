@@ -69,7 +69,6 @@ int main() {
             // Convert the string to an integer and insert into the BST
             value = stoi(line);
             bst.insert(value);
-            bst.balance();
             operationAmounts[0] += bst.getNumOperations();
             // Print the BST to the console and the output file after each insertion
             bst.printTree(outputFile);

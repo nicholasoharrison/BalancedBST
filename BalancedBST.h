@@ -88,6 +88,8 @@ public:
     // Ensures every node of the tree is in balance
     void balanceTree(Node*& current);
 
+    void balanceByPath(Node*& current);
+
     // Returns the balance factor of a specified node
     int getBalanceFactor(Node* current);
 
