@@ -77,6 +77,7 @@ Node* BalancedBST::deleteNodeRecursive(Node* current, int value) {
             // Subtract one from the twin chain
             Node* temp = current->next;
             current->next = temp->next;
+            operations++;
             delete temp;
         }
         else {
@@ -84,11 +85,13 @@ Node* BalancedBST::deleteNodeRecursive(Node* current, int value) {
             if (current->left == nullptr) {
                 Node* temp = current->right;
                 delete current;
+                operations += 2;
                 return temp;
             }
             else if (current->right == nullptr) {
                 Node* temp = current->left;
                 delete current;
+                operations += 2;
                 return temp;
             }
 
@@ -97,6 +100,7 @@ Node* BalancedBST::deleteNodeRecursive(Node* current, int value) {
 
             // Copy the inorder successor's data to this node
             current->data = temp->data;
+            operations++;
 
             // Delete the inorder successor
             current->right = deleteNodeRecursive(current->right, temp->data);
@@ -112,6 +116,7 @@ Node* BalancedBST::deleteNodeRecursive(Node* current, int value) {
 void BalancedBST::insert(int value) {
     operations = 0;
     root = insertRecursive(root, value);
+    operations++; // Add an operation for the height of the node
     std::cout << "Inserted value: " << value << ", Tree Height: " << height(root) << endl;
 }
 
@@ -122,6 +127,7 @@ Node* BalancedBST::minValueNode(Node* node) {
     Node* current = node;
     while (current && current->left != nullptr) {
         current = current->left;
+        operations++; // Number of operations to find the smallest value in the subtree
     }
     return current;
 }
@@ -308,7 +314,7 @@ void BalancedBST::balanceTree(Node*& current) {
 }
 
 
-
+// Balances tree by a specfic path (recursive stack)
 void BalancedBST::balanceByPath(Node*& current)
 {
     int balanceFactor = getBalanceFactor(current);
@@ -352,6 +358,8 @@ Node* BalancedBST::rotateLeft(Node* node){
     rNode->left = node;
     node->right = temp;
 
+    operations += 4;
+
     return rNode;
 
 }
@@ -365,6 +373,8 @@ Node* BalancedBST::rotateRight(Node* node){
 
     lNode->right = node;
     node->left = temp;
+
+    operations += 4;
 
     return lNode;
 }

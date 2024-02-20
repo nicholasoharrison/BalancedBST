@@ -88,6 +88,7 @@ public:
     // Ensures every node of the tree is in balance
     void balanceTree(Node*& current);
 
+    // Balances by a specific path (recursive stack)
     void balanceByPath(Node*& current);
 
     // Returns the balance factor of a specified node
