@@ -107,6 +107,8 @@ Node* BalancedBST::deleteNodeRecursive(Node* current, int value) {
         }
     }
 
+    // Call the balance by path function------------------------------------------------------------------------------------
+
     return current;
 }
 
@@ -318,7 +320,7 @@ void BalancedBST::balanceTree(Node*& current) {
 void BalancedBST::balanceByPath(Node*& current)
 {
     int balanceFactor = getBalanceFactor(current);
-    
+
     // Left-Left Case
     if (balanceFactor > 1 && getBalanceFactor(current->left) >= 0)
         current = rotateRight(current);
@@ -342,7 +344,7 @@ void BalancedBST::balanceByPath(Node*& current)
 
 
 // Gets value of the balance factor for each node
-int BalancedBST::getBalanceFactor(Node* current){
+int BalancedBST::getBalanceFactor(Node* current) {
     if (current == nullptr)
         return 0;
     return height(current->left) - height(current->right);
@@ -351,7 +353,7 @@ int BalancedBST::getBalanceFactor(Node* current){
 
 
 // Rotates tree to the left
-Node* BalancedBST::rotateLeft(Node* node){
+Node* BalancedBST::rotateLeft(Node* node) {
     Node* rNode = node->right;
     Node* temp = rNode->left;
 
@@ -367,7 +369,7 @@ Node* BalancedBST::rotateLeft(Node* node){
 
 
 // Rotates tree to the right
-Node* BalancedBST::rotateRight(Node* node){
+Node* BalancedBST::rotateRight(Node* node) {
     Node* lNode = node->left;
     Node* temp = lNode->right;
 
