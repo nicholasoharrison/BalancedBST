@@ -107,7 +107,7 @@ Node* BalancedBST::deleteNodeRecursive(Node* current, int value) {
         }
     }
 
-    // Call the balance by path function------------------------------------------------------------------------------------
+    balanceByPath(current);
 
     return current;
 }
@@ -361,7 +361,7 @@ Node* BalancedBST::rotateLeft(Node* node) {
     rNode->left = node;
     node->right = temp;
 
-    operations += 4;
+    operations += 2;
 
     return rNode;
 
@@ -377,7 +377,7 @@ Node* BalancedBST::rotateRight(Node* node) {
     lNode->right = node;
     node->left = temp;
 
-    operations += 4;
+    operations += 2;
 
     return lNode;
 }

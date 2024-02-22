@@ -1,0 +1,71 @@
+BST elements: 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3
+BST elements: 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-2
+BST elements: 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-3
+BST elements: 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-4
+BST elements: 3 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-5
+BST elements: 3 3 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-6
+BST elements: 3 3 3 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-7
+BST elements: 3 3 3 3 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-8
+BST elements: 3 3 3 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-7
+BST elements: 3 3 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-6
+BST elements: 3 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-5
+BST elements: 3 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-4
+BST elements: 3 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-3
+BST elements: 3 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3-2
+BST elements: 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3
+BST elements: , Tree Height: 0
+Printing BST using 2D representation:
+Value 3 not found in the tree - skipping deletion.
+
+              BST
+Creation      23
+Search        0
+Insert        0
+Delete        42
+         -------------
+Total         65

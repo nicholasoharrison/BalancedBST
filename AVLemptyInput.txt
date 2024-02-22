@@ -1,0 +1,20 @@
+
+Tree is empty after creation.
+Value 5 not found in the tree - skipping deletion.
+Value 4 not found in the tree.
+Value 41 not found in the tree.
+BST elements: 3 , Tree Height: 1
+Printing BST using 2D representation:
+
+3
+2 operations completed
+BST elements: , Tree Height: 0
+Printing BST using 2D representation:
+
+              BST
+Creation      0
+Search        4
+Insert        2
+Delete        7
+         -------------
+Total         13

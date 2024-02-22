@@ -31,8 +31,8 @@ int main() {
     std::cout << "Enter the name of the input file: ";
     cin >> inputFileName;
 
-    /*std::cout << "Enter the name of the operation file: ";
-    cin >> operationFileName;*/
+    std::cout << "Enter the name of the operation file: ";
+    cin >> operationFileName;
 
     std::cout << "Enter the name of the output file: ";
     cin >> outputFileName;
@@ -90,7 +90,7 @@ int main() {
     std::cout << "\n\n\n";
 
 
-    /*
+    
     // Check if the operation file is empty and valid and perform operations
     ifstream operationFile(operationFileName);
     if (operationFile.peek() == ifstream::traits_type::eof()) {
@@ -173,7 +173,7 @@ int main() {
         }
     }
 
-    */
+    
 
     int creation = operationAmounts[0];
     int search = operationAmounts[1];
@@ -204,7 +204,7 @@ int main() {
     // Close the files
     inputFile.close();
     outputFile.close();
-    //operationFile.close();
+    operationFile.close();
 
 
 

@@ -1,0 +1,10 @@
+
+Tree is empty after creation.
+
+              BST
+Creation      0
+Search        0
+Insert        0
+Delete        0
+         -------------
+Total         0

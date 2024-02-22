@@ -1,0 +1,113 @@
+BST elements: 6 , Tree Height: 1
+Printing BST using 2D representation:
+
+6
+BST elements: 1 6 , Tree Height: 2
+Printing BST using 2D representation:
+
+6
+
+     1
+BST elements: 1 2 6 , Tree Height: 2
+Printing BST using 2D representation:
+
+     6
+
+2
+
+     1
+BST elements: 1 2 6 9 , Tree Height: 3
+Printing BST using 2D representation:
+
+          9
+
+     6
+
+2
+
+     1
+BST elements: 1 2 3 6 9 , Tree Height: 3
+Printing BST using 2D representation:
+
+          9
+
+     6
+
+          3
+
+2
+
+     1
+BST elements: 1 3 6 9 , Tree Height: 3
+Printing BST using 2D representation:
+
+          9
+
+     6
+
+3
+
+     1
+BST elements: 1 3 6 , Tree Height: 2
+Printing BST using 2D representation:
+
+     6
+
+3
+
+     1
+BST elements: 1 3 6 7 , Tree Height: 3
+Printing BST using 2D representation:
+
+          7
+
+     6
+
+3
+
+     1
+5 operations completed
+BST elements: 1 3 4 6 7 , Tree Height: 3
+Printing BST using 2D representation:
+
+          7
+
+     6
+
+          4
+
+3
+
+     1
+5 operations completed
+BST elements: 1 3 4 7 , Tree Height: 3
+Printing BST using 2D representation:
+
+     7
+
+          4
+
+3
+
+     1
+BST elements: 1 3 4 7 8 , Tree Height: 3
+Printing BST using 2D representation:
+
+          8
+
+     7
+
+          4
+
+3
+
+     1
+5 operations completed
+
+              BST
+Creation      25
+Search        0
+Insert        15
+Delete        30
+         -------------
+Total         70
