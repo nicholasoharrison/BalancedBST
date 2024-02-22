@@ -361,12 +361,11 @@ Node* BalancedBST::rotateLeft(Node* node) {
     rNode->left = node;
     node->right = temp;
 
-    operations += 2;
+    operations += 3; // 3 operations to rotate nodes
 
     return rNode;
 
 }
-
 
 
 // Rotates tree to the right
@@ -377,7 +376,7 @@ Node* BalancedBST::rotateRight(Node* node) {
     lNode->right = node;
     node->left = temp;
 
-    operations += 2;
+    operations += 3; // 3 operations to rotate nodes
 
     return lNode;
 }
