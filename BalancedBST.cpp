@@ -117,6 +117,7 @@ Node* BalancedBST::deleteNodeRecursive(Node* current, int value) {
 // Inserts a new node into the BST
 void BalancedBST::insert(int value) {
     operations = 0;
+    if (root == nullptr) { operations--; }
     root = insertRecursive(root, value);
     operations++; // Add an operation for the height of the node
     std::cout << "Inserted value: " << value << ", Tree Height: " << height(root) << endl;
