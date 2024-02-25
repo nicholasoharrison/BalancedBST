@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BalancedBST.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SourceAVL.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BalancedBST.h" />

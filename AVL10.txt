@@ -240,9 +240,9 @@ BST elements: , Tree Height: 0
 Printing BST using 2D representation:
 
               BST
-Creation      61
+Creation      66
 Search        0
 Insert        0
-Delete        98
+Delete        102
          -------------
-Total         159
+Total         168
